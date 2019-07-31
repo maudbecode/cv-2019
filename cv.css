@@ -1,0 +1,113 @@
+body {
+  background-color: #c3c3c3;
+}
+h3 {
+  font-size: 30px;
+  text-align: center;
+}
+.ligne {
+border-style: solid;
+border-color: #29B385;
+width: auto;
+height: 5px;
+background-color: #29B385;
+margin-left: 15px;
+margin-right: 15px;
+}
+.ligne2 {
+  border-style: solid;
+  border-radius: 15px;
+  border-color: #29B385;
+  width: 55px;
+  height: 5px;
+  background-color: #29B385;
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+.container {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  margin: 100px 200px 100px 200px;
+}
+.main-header {
+  grid-column: span 3;
+  grid-row: span 3;
+  background-color: #29B385;
+  text-align: center;
+  padding: 15px;
+}
+.one {
+  background-color: rgb(250, 250, 250);
+  grid-column: 1;
+  grid-row: span 2;
+  padding: 5px;
+}
+.two {
+  background-color: white;
+  grid-column-start: 2;
+  grid-column: span 2;
+  padding: 5px;
+}
+.three{
+  background-color: white;
+  grid-column-start: 2;
+  padding: 5px;
+}
+.four{
+  background-color: white;
+  grid-column-start: 3;
+  padding: 5px;
+}
+.year, .year2, span {
+  font-weight:bold
+}
+.me {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 80px;
+}
+h1, h2, .intro {
+  color: white;
+}
+h3 {
+  color: #29B385;
+}
+h1, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+.intro {
+  display: inline-block;
+  text-align: center;
+  margin: 5px;
+}
+.fab {
+  font-size: 30px;
+}
+.moncercle {
+  background-color: blue;
+  border-radius:50%;
+  width:10px;
+  height:10px;
+  border:2px solid blue; 
+  margin-right: 5px;
+}
+.moncercle2 {
+  background-color: white;
+  border-radius:50%;
+  width:10px;
+  height:10px;
+  border:2px solid blue; 
+}
+.test {
+ display: flex;
+ flex-direction: row;
+}
+.fr {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 15px;
+}
